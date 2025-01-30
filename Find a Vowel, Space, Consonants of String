@@ -1,0 +1,12 @@
+Str=input("Enter the string").lower()
+vowel,space,const=0,0,0
+for i in Str:
+    if i in 'aeiou':
+        vowel+=1
+    elif i == " ":
+        space +=1
+    else:
+        const+=1
+print("Number of vowel in Entered String is",vowel)
+print("Number of space in Entered String is",space)
+print("Number of consonants in Entered String is",const)
