@@ -1,0 +1,8 @@
+# 3] swap the  2 number using function
+def swaptwo(a,b):
+    return b,a
+
+a=int(input("Enter the first number"))
+b=int(input("Enter the second number"))
+
+print(f"after swap the number a,b :: {swaptwo(a ,b)}")
