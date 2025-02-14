@@ -1,0 +1,9 @@
+# 5] fibonacci serice in python
+
+def fibon(n):
+    series=[0,1]
+    for _ in range(2,n):
+        series.append(series[-1] + series[-2])
+    return series[:n]
+n=int(input("Enter the number to find the serise"))
+print(f"Fibonacci series {n} number is :: {fibon(n)} ")
